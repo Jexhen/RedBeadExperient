@@ -203,7 +203,7 @@ public class RedBeadExp {
 	}
 	
 	//参数times是需要做实验的次数,参数methodIndex要选择的算法标号
-	public void StartExprient(int times, int methodIndex) {
+	public void startExprient(int times, int methodIndex) {
 		System.out.println("样本数\t红豆数\t黄豆数");
 		switch (methodIndex) {
 		case 1:
@@ -234,10 +234,10 @@ public class RedBeadExp {
 	public static void main(String[] args) {
 		RedBeadExp rbe = new RedBeadExp();
 		rbe.init();
-		rbe.StartExprient(20, 1);
+		rbe.startExprient(20, 1);
 		System.out.println("====================================");
-		rbe.StartExprient(20, 2);
+		rbe.startExprient(20, 2);
 		System.out.println("====================================");
-		rbe.StartExprient(20, 3);
+		rbe.startExprient(20, 3);
 	}
 }
