@@ -126,7 +126,7 @@ public class RedBeadExp {
 	}
 	
 	//第三种方法：以一颗豆子为中心，递增递减方向各抽取一半
-	public void experient3() {
+	private void experient3() {
 		int isAdd = rand.nextInt(2);//用于判断偏差是加还是减，1为加，0为减
 		int totalOfSample = TOTAL_SAMPLE;//本次抽取的样本数
 		int sampleRedBeans = 0;//本次抽取的样本红豆总数
